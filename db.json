@@ -1,0 +1,22 @@
+{
+    "categories" : [
+      {"id":0,"name": "Fiction", "slug":"Fiction-book"},
+      {"id":1,"name": "Adventure", "slug":"Adventure-book"},
+      {"id":2,"name": "Romance", "slug":"Romance-book"},
+      {"id":3,"name": "Horror", "slug": "Horror-book"},
+      {"id":4,"name": "Cooking", "slug":"Cooking-book"},
+      {"id":5,"name": "Science", "slug": "Science-book"}
+    ],
+    "books": [
+      {"id":"B01","name":"Harry Potter", "quantity": 3, "borrowQuantity":2, "categories":[{"name":"Fiction", "slug":"Fiction-book"}, {"name":"Adventure", "slug":"Adventure-book"}], "status":"available"},
+      {"id":"B02","name":"50 first dates", "quantity": 2, "borrowQuantity":1, "categories":[{"name":"Romance", "slug":"Romance-book"}], "status":"available"},
+      {"id":"B03","name":"Ghost buster", "quantity": 5, "borrowQuantity":3, "categories":[{"name":"Horror", "slug":"Horror-book"}, {"name":"Adventure", "slug":"Adventure-book"}], "status":"available"},
+      {"id":"B04","name":"50 Recipes to become a success Chef", "quantity": 6, "borrowQuantity":4, "categories":[{"name":"Cooking", "slug":"Cooking-book"}] ,"status":"available"},
+      {"id":"B05","name":"50 questions Why?", "quantity": 10, "borrowQuantity":9, "categories":[{"name":"Science", "slug":"Science-book"}], "status":"available"}
+    ],
+    "customers":[
+      {"firstName": "Vu", "lastName": "Huy", "phone":"1234567890", "email":"huyquangvu@gmail.com"},
+      {"firstName": "Tuong", "lastName": "Nguyen", "phone":"0123456789", "email":"tuongnt@gmail.com"},
+      {"firstName": "Toan", "lastName": "Le", "phone":"1230456789", "email":"toanld@gmail.com"}
+    ]
+}
